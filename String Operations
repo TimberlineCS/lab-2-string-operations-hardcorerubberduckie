@@ -1,0 +1,80 @@
+
+
+// Dmitri Albig
+//Ap Computer Science
+//8/28/2020
+
+
+
+
+public class StringOperations{
+
+public static void main(String args []){
+
+String Scis = "scissors";
+String Pic = "Picture";
+String comp = "Computer";
+
+
+
+
+//Challenge 1
+
+
+
+String firstHalf = Scis.substring(0, 4);
+String Secondhalf = Scis.substring(4,8);
+
+System.out.print(Secondhalf);
+
+System.out.print(firstHalf);
+
+System.out.println();
+
+
+String PicfirstHalf = Pic.substring(0, 4);
+String PicSecondhalf = Pic.substring(4,7);
+
+System.out.print(PicSecondhalf);
+
+System.out.print(PicfirstHalf);
+
+System.out.println();
+
+
+
+String CompfirstHalf = comp.substring(0, 4);
+String CompSecondhalf = comp.substring(4,8);
+
+System.out.print(CompSecondhalf);
+
+System.out.print(CompfirstHalf);
+
+
+//________________________________________________________________________________________
+
+
+//Challenge 2
+
+System.out.println();
+System.out.println("  .   .");
+System.out.println("  /\\ /\\");
+System.out.println(" |  !  |");
+System.out.println(" | 0:0 |");
+System.out.println("/ \\_:_/ \\ ");
+
+
+ 
+
+
+
+
+
+
+	
+	
+
+
+    }
+
+}
